@@ -74,10 +74,10 @@ The output `.exe` file is located in the `/build/` folder.
 interface (VID `0x8089`, PID `0x0009`, usage page `0xFF12`), 
 querying the screen size and streaming a full RGB565 framebuffer
 in 1024-byte chunks.
-- **Media** — [src/media.cpp](src/media.cpp) wraps the WinRT
+- **Media** - [src/media.cpp](src/media.cpp) wraps the WinRT
 `GlobalSystemMediaTransportControlsSessionManager` to poll the 
 current Windows "now playing" session for title, artist, playback 
 state and cover art.
-- **Rendering** — [src/main.c](src/main.c) draws the cover art, 
+- **Rendering** - [src/main.c](src/main.c) draws the cover art, 
 GNU Unifont text (with scrolling), playback icons and the 
 equalizer into the framebuffer at ~30 FPS.
