@@ -2,7 +2,7 @@
 
 <p align="center">
   
-  <img src="./demo.jpg" alt="SayoDevice showing the media screen" width="300">
+  <img src="./demo.jpg" alt="SayoDevice showing the media screen" width="400">
 </p>
 
 **Transform your SayoDevice into a media controller!**
