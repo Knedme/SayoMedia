@@ -1,3 +1,1 @@
-./build/*.obj
-./build/*.exe
-./build/*.dll
+build
